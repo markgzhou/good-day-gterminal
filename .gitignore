@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/.idea/inspectionProfiles/
+/.idea/good-day-gterminal.iml
+/.idea/modules.xml
+/.idea/vcs.xml
