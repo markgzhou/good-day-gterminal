@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='good-day',  # How you named your package folder
-    version='0.1.2',  # Start with a small number and increase it with every change you make
+    version='0.1.3',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='Module that makes you a good day',  # Give a short description about your library
 
@@ -11,6 +11,14 @@ setup(
 
     url='https://github.com/markgzhou/good-day-gterminal',  # Provide either the link to your github or to your website
     keywords=['good day', 'good', 'day'],
+
+    py_modules=['good_day'],
+    entry_points={
+        'console_scripts': [
+            'good-day=good_day:main'
+        ]
+    },
+
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
