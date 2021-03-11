@@ -11,3 +11,12 @@
 def start():
     """Start your good day from here."""
     print('Now your great day begins! 😊')
+
+
+def main():  # type: () -> None
+    """Read the Real Python article feed"""
+    start()
+
+
+if __name__ == "__main__":
+    main()
