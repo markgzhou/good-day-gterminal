@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name='good-day',  # How you named your package folder
-    version='0.1.3',  # Start with a small number and increase it with every change you make
-    license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-    description='Module that makes you a good day',  # Give a short description about your library
+    name='good-day',
+    version='0.1.0',
+    license='MIT',
+    description='Module that makes you a good day',
 
-    author='Guanlong (Mark) Zhou',  # Type in your name
-    author_email='markgzhou@outlook.com',  # Type in your E-Mail
+    author='Guanlong (Mark) Zhou',
+    author_email='markgzhou@outlook.com',
 
-    url='https://github.com/markgzhou/good-day-gterminal',  # Provide either the link to your github or to your website
+    url='https://github.com/markgzhou/good-day-gterminal',
     keywords=['good day', 'good', 'day'],
 
     py_modules=['good_day'],
@@ -21,7 +21,7 @@ setup(
 
     classifiers=[
         'Development Status :: 5 - Production/Stable',
-        # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
+        # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable"
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: MIT License',
