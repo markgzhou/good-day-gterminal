@@ -1,10 +1,19 @@
 from setuptools import setup
+from codecs import open
+from os import path
+
+cwd = path.abspath(path.dirname(__file__))
+
+with open(path.join(cwd, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(
     name='good-day',
-    version='0.1.0',
+    version='0.2.1',
     license='MIT',
     description='Module that makes you a good day',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
 
     author='Guanlong (Mark) Zhou',
     author_email='markgzhou@outlook.com',
@@ -21,7 +30,7 @@ setup(
 
     classifiers=[
         'Development Status :: 5 - Production/Stable',
-        # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable"
+        # Choose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable"
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: MIT License',

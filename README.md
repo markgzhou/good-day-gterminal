@@ -19,7 +19,20 @@ Welcome to Good Day!
 `Good day begins.Happy coding!`
 
 
-## 🔧 Tip & Guide
+## 🔧 Install
+```
+$ pip install  --upgrade good-day
+```
 
+## Usage
+### Run in terminal
+Run with confidence in the terminal with the following command:
+```
+$ good-day
+```
 
-## 💬 Support & Documentation
+## Development
+### Test
+```
+python ./tests/unit_test/test_good_day.py -v
+```
